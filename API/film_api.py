@@ -54,4 +54,4 @@ class FilmApi:
     @allure.step("Отправить запрос без авторизации")
     def request_without_authorization(self) -> dict:
         """Запрос без авторизации"""
-        return requests.get(self.url+'movie/random
+        return requests.get(self.url+'movie/ran
